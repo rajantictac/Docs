@@ -24,3 +24,8 @@ sudo swapon /swapfile
 
 Verify: sudo swapon --show
 verify: free -h
+
+
+Linux Port allow for ubuntu
+sudo ufw allow 80,443,3000 /tcp;
+sudo ufw allow 7946, 4789 /udp;
