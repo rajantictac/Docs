@@ -21,5 +21,6 @@ sudo mkswap /swapfile
 
 Enable the swap file:
 sudo swapon /swapfile
+
 Verify: sudo swapon --show
 verify: free -h
